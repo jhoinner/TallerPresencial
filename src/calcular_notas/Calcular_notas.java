@@ -30,8 +30,12 @@ public class Calcular_notas {
        }
        for(i=0; i<Produc.size(); i++){
            System.out.println(Produc.get(i)+"\t"+", Promedio: "+prom.get(i));
-           
+           if((i)>3.0){
+               System.out.println((i));
+           }
        }
+       
+       
        
     }
     
